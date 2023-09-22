@@ -13,7 +13,7 @@
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<!--hikariConfi.setDriverClassName("oracle.jdbc.driver.OracleDriver") -->
 <!-- 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property> -->
-		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://@127.0.0.1"></property>
+		<property name="jdbcUrl" value="jdbc:log4jdbc:mysql://@127.0.0.1/mit"></property>
 	
 		<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
 		<property name="username" value="aaa"></property>
