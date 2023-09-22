@@ -31,4 +31,5 @@
 	
 	<mybatis-spring:scan base-package="edu.mit.dao" />
 	<context:component-scan base-package="edu.mit.logic" />
+	<context:component-scan base-package="edu.mit.service" />
 </beans>
